@@ -372,6 +372,41 @@ main {
 }
 
 
+/* Advertisers */
+
+.advertisers {
+    position: relative;
+}
+
+.advertisers h3 {
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 12px;
+    padding: 10px 10px 5px;
+}
+
+.advertisers h3 span {
+    color: green;
+}
+
+.advertisers ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advertisers li {
+    width: 16.66%;
+}
+
+.top-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
 /*=================================
   main styling ends here
 =================================*/
@@ -392,4 +427,8 @@ main {
 
 /*media query for 995px starts here*/
 
-@media only screen and (max-width: 995px) {}
+@media only screen and (min-width: 700px) {
+    .advertisers li {
+        width: 16.66%;
+    }
+}
