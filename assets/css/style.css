@@ -261,6 +261,11 @@ header div {
 
 
 /*=================================
+  Header styling ends here
+=================================*/
+
+
+/*=================================
   Carousel styling Starts here
 =================================*/
 
@@ -300,13 +305,45 @@ header div {
 
 
 /*=================================
-  Header styling ends here
-=================================*/
-
-
-/*=================================
   main styling starts here
 =================================*/
+
+main {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-heading h2 {
+    padding: 20px 20px 10px;
+    max-width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+.feature-icon ul {
+    display: flex;
+    text-align: center;
+}
+
+.feature-icon h3 {
+    font-size: large;
+    font-weight: bold;
+}
+
+.feature-icon p {
+    font-size: small;
+}
+
+.feature-icon ul li {
+    padding: 20px;
+}
+
+.feature-icon img {
+    border-radius: 50%;
+}
 
 
 /*=================================
