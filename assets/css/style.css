@@ -346,6 +346,32 @@ main {
 }
 
 
+/* Portfolio */
+
+.portfolio h3 {
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 12px;
+    padding: 10px 10px 5px;
+}
+
+.portfolio h3 span {
+    color: green;
+}
+
+.wrap-for-2 {
+    display: flex;
+    margin: 10px;
+}
+
+.wrap-for-2 img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+
 /*=================================
   main styling ends here
 =================================*/
