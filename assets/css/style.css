@@ -309,6 +309,7 @@ header div {
 =================================*/
 
 main {
+    background-color: rgb(253, 250, 244);
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -420,6 +421,27 @@ main {
 /*=================================
   footer styling ends here
 =================================*/
+
+footer {
+    margin-top: 30px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-wrap {
+    display: flex;
+}
+
+.container-wrap h3 {
+    font-size: large;
+    font-weight: bold;
+}
+
+.footer-end-row {
+    background-color: black;
+    color: white;
+}
 
 
 /*media query starts*/
